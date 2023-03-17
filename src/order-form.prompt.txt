@@ -1,0 +1,12 @@
+Hello, I need to make a React component to make Buy/Sell orders on a crypto Exchange.
+The component should be styled with React + Typescript and tailwindcss classes.
+It should have:
+- it should be tabbed, it has a Buy/Sell choice on top
+- a field to input the value of the order
+- a field to input quantity
+- a set of 4 buttons to set the quantity to 25% 50% 75% 100%
+- a label knowing the user available balance in USD
+- a readonly Input to show the size of the Order, expressed in USD
+- A final button that  displays Buy or Sell depending on the tab
+
+Please focus only on this component and not other details. Also please use hook-style components, not Class components

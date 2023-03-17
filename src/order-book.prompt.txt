@@ -1,0 +1,27 @@
+Hello, I need to make a React component to display a crypto exchange Orderbook
+The component should be styled with React + Typescript and tailwindcss classes.
+Additional details:
+- it should be a column component, expected to have a width of 400px
+- it should show buy orders in the top part
+- it should write the current market order price in-between the buy orders and the sell orders
+- it should show the sell orders in the bottom part
+
+The orders can have a data structure like this:
+
+```
+const orders = {
+  buy: [
+    { value: 12333, amount: 1000 },
+    { value: 12400, amount: 5000 },
+    { value: 12533, amount: 250 },
+  ],
+  current: 12300,
+  sell: [
+    { value: 12133, amount: 1000 },
+    { value: 12200, amount: 1000 },
+    { value: 12223, amount: 1000 },
+  ]
+}
+```
+
+Please focus only on this component and not other details. Also please use hook-style components, not Class components
